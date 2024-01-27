@@ -1,0 +1,12 @@
+/* BlogLayout.css */
+.scrollable-side {
+    height: 100vh; /* 100% of the viewport height */
+    overflow-y: auto; /* Enable vertical scrolling */
+  }
+  
+  /* Hide the scrollbar while keeping functionality */
+  .scrollable-side::-webkit-scrollbar {
+    width: 0;
+    background: transparent;
+  }
+  
